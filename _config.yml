@@ -95,8 +95,19 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+## Themes: https://hexo.io/themes/  
 theme: typo
+
+theme_config:
+  title: blog
+  favicon: /icon.svg
+  icon: /icon.svg
+
+  menu:
+    archives: /archives
+    about: /about
+
+  copyright: 2024 Mariah Chen 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
