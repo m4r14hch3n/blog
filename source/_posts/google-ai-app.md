@@ -1,0 +1,16 @@
+---
+title: google_ai_app
+date: 2024-06-29 23:11:21
+tags:
+---
+<!-- Widget JavaScript bundle -->
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=zh_CN"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="8cd15e4a-9a47-4a33-9d0c-152ca9821e1f"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="在此处搜索" id="searchWidgetTrigger" />
