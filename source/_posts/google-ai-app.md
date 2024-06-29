@@ -4,7 +4,7 @@ date: 2024-06-29 23:11:21
 tags:
 ---
 <!-- Widget JavaScript bundle -->
-<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=zh_CN"></script>
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
 <!-- Search widget element is not visible by default -->
 <gen-search-widget
@@ -13,4 +13,4 @@ tags:
 </gen-search-widget>
 
 <!-- Element that opens the widget on click. It does not have to be an input -->
-<input placeholder="在此处搜索" id="searchWidgetTrigger" />
+<input placeholder="search here" id="searchWidgetTrigger" />
